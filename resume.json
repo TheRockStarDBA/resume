@@ -1,0 +1,446 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Kin shah",
+    "label": "Senior Software Developer / Engineer at Bloomberg LP",
+    "image": "",
+    "email": "kin.msdba@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "I am a strong information technology professional with a Masters (MS) focused in Electrical Engineering from Fairleigh Dickinson University. \n\nExperienced Senior Site Reliability Engineer / Database Engineer with a demonstrated history of working in the financial services, government and education industry. Highly Skilled in Databases (SQL Server, MySQL, Postgres), Data Warehousing, Sybase Products, Linux, High-Availability, Disaster recovery solutions and Replication along with process automation using PowerShell, Python and C# along with .NET Core. \n\nDesigned low latency systems using Python as well as .NET Core C#. Experience working with Kafka.\n\nIn my current role, focused on automation and performance monitoring - metrics and log (query analytics) for sql server. Additionally, developing inhouse software to deploy software to windows machines using .NET core. Additionally, built a healthchecker for both SQL Server and Postgres to provide RED metrics. Proficient in using Graphite functions along with Grafana to make dashboards. Also, proficient in using Humio / Splunk for log management which helps correlating metrics and logs together.\nOccasionally blog at https://kin-shah.buildsinpublic.com/ and contribute to dba.stackexchange.com (https://dba.stackexchange.com/users/8783/kin-shah?tab=profile) ranking 12th  all-time on a user base of 212K total users.\n\nFun fact : When I am not at work, I enjoy teaching kids (2nd grade and up) computational thinking and programming (python) - https://github.com/TheRockStarDBA/CodingForKids",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "kinjalkshah",
+        "url": "https://www.linkedin.com/in/kinjalkshah/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bloomberg LP",
+      "position": "Senior Site Reliability Engineer",
+      "startDate": "2021-03-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "- Through continuous process improvements and automation using PowerShell, reduced 1400+ tickets compared to year 2018. \n- Migrating SQL Server 2008/R2 database instances to SQL Server 2014 / 2017 / 2019.\n- Designed a migration rollback strategy using Peer-to-Peer (P2P)  replication thereby providing a forward and rollback strategy to business critical applications. \n- Tuned P2P replication to be able to push more than 5M TXs/hr.\n- Created and Implemented SQL Server monitoring solution using open-source - Grafana, Telegraf and InfluxDB (time-series database). This enabled us in retiring 3rd party monitoring software thereby saving significant amount of money in license and support cost.\n- Created and implemented blocking and deadlock detecting and created self-service HUMIO realtime charts for application team to be able to troubleshoot issues.\n- Created an automated failover process for AlwaysON Availability group that auto-rebalances the AlwaysON topology to ensure there are atleast 2 sync replicas. This ensures that during machine crash, SQL Server is able to automatically perform failovers without dataloss. Also, this allows machine maintenance on a given node since the process makes it async which minimizes impact on primary sync replica.\n- Automated all the pre and post migration steps using dbatools (https://dbatools.io/) - PowerShell and custom TSQL Scripts.\n- Successfully did a POC of running SQL Server on Kubernetes (K8s).\n- Implemented Query Store for sql server 2016 and up instances thereby providing query perform stats to application team.\n- Mentoring other team members on SQL Server platform along with supporting MySQL open-source RDBMS.",
+      "url": "https://www.linkedin.com/company/bloomberg/",
+      "location": "Greater New York City Area"
+    },
+    {
+      "name": "Bloomberg LP",
+      "position": "Sr. Database Engineer",
+      "startDate": "2017-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": "- Handle performance tuning, break/fix, space management, backup and recovery, database HA/DR setup and management.\n - Manage highly transactional databases servicing OLTP and DSS applications.\n - Act as a project manager and develop best practices and repeatable procedures for deploying databases.\n - Design and implement database replication strategies, including database mirroring/AlwaysOn, peer-to-peer and transactional replication.\n - Automation using PowerShell for day-to-day tasks like server monitoring, alerting, backup/restore, sql server installation, etc.",
+      "url": "https://www.linkedin.com/company/bloomberg/",
+      "location": "Greater New York City Area"
+    },
+    {
+      "name": "Dealogic",
+      "position": "Senior DBA - MS SQL Server and Sybase",
+      "startDate": "2012-12-31",
+      "endDate": "2017-01-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/dealogic/",
+      "location": "New York"
+    },
+    {
+      "name": "Dealogic",
+      "position": "Database Administrator -SQL server and Sybase",
+      "startDate": "2010-03-31",
+      "endDate": "2017-01-31",
+      "highlights": [],
+      "summary": "Recently, I have been working on some of the most advance and interesting projects as below :\n\n-- Developed a comprehensive \"SQL Server Health Check\" script for proactively running health checks on hosted as well as deployed client servers which includes areas like - maintenance, database health, security, windows as well as SQL server installation and many more.\n-- Backup strategy for SQL Azure as well as maintaining security for company's applications running in cloud and designing and deploying automated data transfer from on-premise to cloud.\n-- Performance tuning SQL Servers (2005, 2008 and 2008R2) and SybaseASE 12.5.4, 15.0.3 and 15.5.\n-- Capacity planning for databases on MS SQL server and SybaseASE.\n-- SAN benchmarking and data warehouse on SAN.\n-- Process automation for SQL servers using PowerShell and SybaseASE using shell scripts (Linux and UNIX).\n-- Working on new features introduced in Denali (SQL server 2012) as well as SQL Azure.\n-- Designing and implementing backup strategy and database maintenance strategy for both SQL servers and Sybase ASE.\n-- Being more client focus, like performing Database Server (both MS SQL and SybaseASE) health checks on client's Dev, UAT and PROD systems and proactively suggesting best practices to achieve best performance for our applications.",
+      "url": "https://www.linkedin.com/company/dealogic/",
+      "location": "new york, New york"
+    },
+    {
+      "name": "COREK12 EDUCATION",
+      "position": "MS SQL SERVER DBA",
+      "startDate": "2009-09-30",
+      "endDate": "2010-03-31",
+      "highlights": [],
+      "summary": "Involved in installing and configuring of SQL Server 2005 Enterprise Edition on Windows Server 2008.\nInvolved in Server Consolidation wherein 12 SQL servers are to be consolidated to 8 SQL servers on a 4 node Active/Active/Active/Passive environment.\nInstalling and configuring SSAS SQL server 2005 in a clustered environment.\nImplemented process automation for SQL jobs using Powershell scripts and SQL Agent..\nDaily monitoring of SQL servers using SQL Diagnostic manager.\nFine tuning SQL Diagnostic manager for sending appropriate alerts.\nDesigning and implementing a robust backup plan for critical databases.\nInvolved in backups of SSAS cubes.\nMoving Databases and cubes between SQL servers as a part of consolidation.\nPreparing and deploying reports for server performance, job failures and disk space utilization as per demand using SSRS.\nInvolved in database capacity planning by closely working with the data center (SAN) team (Rackspace) for any addition / expanding LUNs for more data and better performance.\nEstablishing performance benchmarks for critical databases as well as data warehouses.\nCreated 4 node Active/Active/Active/Passive cluster on VMware for development environment.",
+      "url": "",
+      "location": "jersey city, NJ"
+    },
+    {
+      "name": "Department of Environment and Natural Resources",
+      "position": "SQL server DBA",
+      "startDate": "2008-12-31",
+      "endDate": "2009-06-30",
+      "highlights": [],
+      "summary": "* Installation and configuration of SQL server for ArcSDE layer so that geodatabase applications can connect with SQL server.\n* Set up and installed SQL server 2005 for Dev, Test and Prod environments.\n* Designed process automation for ETL (Pervasive) to load data to SQL server 2005.\n*Performance tuning of SQL server 2005 and 2008.",
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "BAPS CHARITIES",
+      "position": "Community Volunteer",
+      "startDate": "2010-01-31",
+      "endDate": "",
+      "summary": null,
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/4001352"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Fairleigh Dickinson University",
+      "area": "Electrical Engineering",
+      "studyType": "Masters (MS)",
+      "startDate": "2007-12-31",
+      "endDate": "2008-12-31",
+      "score": "",
+      "courses": [
+        "CSCI6623 - Database Systems",
+        "CSCI7781 - Advanced Database Management",
+        "null - ORACLE 10g DBA bundled courses"
+      ]
+    },
+    {
+      "institution": "Gangamai College of Engineering",
+      "area": "Electronics and communications",
+      "studyType": "B.E",
+      "startDate": "2001-12-31",
+      "endDate": "2004-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "ITIL® Foundation certificate in IT Service Management",
+      "issuer": "AXELOS Global Best Practice",
+      "startDate": "2016-07-31",
+      "url": "https://eprofessional.bcs.org/Portal/eCertCheck"
+    },
+    {
+      "name": "MCTS SQL Server 2008",
+      "issuer": "Microsoft",
+      "startDate": "2012-03-31"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "SQL Server 2000-2008R2",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Performance Tuning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dealogic",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Security",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SSIS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Disaster Recovery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Perfmon",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Servers",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "T-SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Replication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL Tuning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VMware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "sql  azure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Transact-SQL (T-SQL)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Relational Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "sql server dmv's",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows core server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Troubleshooting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cluster",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "sql server 2012 (Denali)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ETL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Stored Procedures",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Log Shipping",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OLTP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Planning Budgeting & Forecasting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SybaseASE - 12.5.4, 15.0.3, 15.5 and 15.7",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Warehousing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sybase Products",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Powershell",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET Core",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL Server Reporting Services (SSRS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sybase Adaptive Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Admin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SSRS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sybase",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Nidhi Addanki",
+      "reference": "Kin is great with all things data. His ability to understand business needs and define/refine solutions is refreshing. Always willing to help, Kin goes out of his way to provide solutions or give a different perspective by searching for patterns across data. His can do attitude and enthusiasm makes him a valuable member of any team."
+    },
+    {
+      "name": "Ralph Perrella",
+      "reference": "Kin distinguishes himself not only with his technical expertise in SQL Server and SybaseASE, but also with his ability to think big. He is always looking for ways to innovate and increase efficiency. As a trusted subject matter expert and polished “explainer of complex issues,” he was highly sought after as a resource for both critical incident escalation and strategic initiatives. I am confident that Kin would be a key contributor to any organization."
+    },
+    {
+      "name": "Nilesh Patel",
+      "reference": "Kin is one of the most dedicated and technically gifted DBA's I have had the pleasure of working with. As the go-to SME on Sybase and SQL technologies Kin proved instrumental in client side implementation projects and was the senior escalation point for Dealogics flagship client JP Morgan.\r\n\r\nKin's never stop attitude until the right solution for all parties is reached, is a credit to himself as is his ability to inspire the same within the wider team."
+    },
+    {
+      "name": "Stanley Hui",
+      "reference": "Kin has strong knowledge and experience on MS SQL and sybase database systems. He is able to install, maintain, provide highly availability solution and fine tune performance of database systems.\r\nKin is extremely organized and reliable. he can work independently and is able to follow through to ensure that the job gets done. He was quick to volunteer to assist in other areas of company operations, as well."
+    },
+    {
+      "name": "Brian Fahey",
+      "reference": "Having worked with Kin on numerous high profile projects, I can highly recommend him both as a hardworking individual and trusted colleague.  Kin’s vast wealth of knowledge and experience in SQL Server & SybaseASE have proven critical on countless occasions throughout a range of support escalations and client facing projects.  His clear and focused approach make him an invaluable asset to our IT team and highly regarded employee at Dealogic .  In additional to his daily responsibilities, Kin has also been instrumental in a number of high level strategic initiatives including; developing & implementing intelligent database health check tools & leading database consulting engagements with our fortune 100 clients. Kin is truly wonderful to work with and I highly recommend him."
+    },
+    {
+      "name": "Scott Markovits",
+      "reference": "I had the pleasure of working with Kin on numerous high profile projects and support incidents during my tenure with Dealogic. Kin is very knowledgeable and helpful, dedicated to ensuring the task is done to surpass expectations.  He continually provided helpful tips and suggestions, which greatly benefited numerous clients.  I highly recommend Kin, as he is invaluable resource to his team and his entire IT organization."
+    },
+    {
+      "name": "Jhung-Ha Kwon",
+      "reference": "I can instantly think of key words to describe Kin - they are innovative, hard-working, inquisitive and supportive. Kin was never short of fresh ideas to improve existing processes and create new solutions to tackle operational issues my team and the company was facing. Kin also utilised his leadership and proactive approach to finish many key projects which involved other team members and staff from other functinal areas. His thirst for new technologies and self-improvement will always be a great asset to himself as well as people around him."
+    },
+    {
+      "name": "Raja Sekhar Pochiraju",
+      "reference": "Kinjal worked for one of the critcal applications for the state of NC as a DBA. Kinjal is a very professional and extremely reliable resource.  He is higly knowledgable and easy to work with. I higly recommend him and feel he would be an asset to the team."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sybase ASE Health Checker Tool",
+      "startDate": "2013-01-31",
+      "summary": "Internal from the company's different departments, I received lots of positive reviews for MS SQL Server Health Checker tool and this lead me to architect Health Checker tool for SybaseASE. This tool can be used on any platform - RedHat Enterprise Linux or UNIX and works for Sybase 15.0.3, 15.5 and 15.7 versions of ASE. This tool will generate a report that includes server instance collation, blocking processes, current running processes, database layout and if the database is on mixed or separate data and log segments, database instance configuration settings, device layout, Index fragmentation, outdated statistics and many more.   ",
+      "url": null,
+      "endDate": "2013-01-31"
+    },
+    {
+      "name": "SQL Server Health Checker Tool",
+      "startDate": "2012-07-31",
+      "summary": "Comprehensive check for getting a detailed server health check including areas like - Windows and sql server setup and settings, maintenance, database health, security and many more. This tool will point any anomalies in the database server configuration and will generate recommendations referencing to Industry best practices along with reference links pointing to knowledge base articles from Microsoft and other MVP's.",
+      "url": null,
+      "endDate": "2012-07-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
